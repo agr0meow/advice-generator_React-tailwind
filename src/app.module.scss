@@ -1,0 +1,24 @@
+.advice {
+  @apply max-w-screen-2xl mx-auto flex items-center justify-center h-screen;
+
+  .advice_wrapper {
+    @apply w-10/12  bg-GrayishBlue mx-auto rounded-lg  relative pb-32 md:w-4/12;
+
+    .advice_title {
+      @apply text-xl	flex justify-center py-10 text-NeonGreen;
+    }
+
+    .advice_text {
+      @apply w-5/6 mx-auto text-LightCyan pb-5 border-b-2 text-2xl;
+    }
+    .advice_load {
+      @apply font-bold text-3xl text-DarkGrayishBlue text-center;
+    }
+    .advice_container_btn {
+      @apply -bottom-6 absolute w-full flex justify-center;
+      .btn {
+        @apply border rounded-full p-5 bg-NeonGreen hover:bg-opacity-90;
+      }
+    }
+  }
+}
